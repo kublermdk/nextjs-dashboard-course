@@ -3,22 +3,22 @@
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
-    name: 'User',
-    email: 'user@nextmail.com',
-    password: '123456',
+    name: 'Michael Kubler',
+    email: 'michael+nextjs-dashboard-course-example@example.com',
+    password: '1234567',
   },
 ];
 
 const customers = [
   {
     id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
-    name: 'Delba de Oliveira',
+    name: 'Delba THE Oliveira',
     email: 'delba@oliveira.com',
     image_url: '/customers/delba-de-oliveira.png',
   },
   {
     id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
-    name: 'Lee Robinson',
+    name: 'Lee Rob',
     email: 'lee@robinson.com',
     image_url: '/customers/lee-robinson.png',
   },
@@ -135,7 +135,7 @@ const invoices = [
   },
   {
     customer_id: customers[1].id,
-    amount: 500,
+    amount: 54321,
     status: 'paid',
     date: '2023-08-19',
   },
